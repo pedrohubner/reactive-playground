@@ -24,12 +24,10 @@ ext {
 }
 
 dependencies {
-//	implementation 'org.springframework.cloud:spring-cloud-starter-eureka:1.4.7.RELEASE'
 	implementation 'org.reactivemongo:reactivemongo_2.13:1.0.0'
 	implementation 'org.springframework.boot:spring-boot-starter-webflux'
 	implementation 'de.codecentric:spring-boot-admin-starter-client:2.3.0'
 	implementation 'org.springframework.boot:spring-boot-starter-data-mongodb-reactive'
-	implementation 'org.springframework.boot:spring-boot-starter-security:2.3.4.RELEASE'
 	implementation 'org.springframework.boot:spring-boot-starter-actuator:2.3.4.RELEASE'
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
